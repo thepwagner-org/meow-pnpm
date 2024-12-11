@@ -10,6 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/thepwagner-org/meow-pnpm.git"
   },
+  "packageManager": "pnpm@9.15.0",
   "scripts": {
     "test": "jest",
     "release": "pnpm run build && pnpm pack && changeset publish",
